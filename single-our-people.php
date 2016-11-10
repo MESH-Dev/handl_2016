@@ -159,9 +159,9 @@ get_header(); ?>
                         
                         	<a href='<?php echo $custom_fields['facebook'][0] ?>' class='facebook' target="_blank"><img src='<?php echo get_template_directory_uri('/');?>/images/sharethis-facebook.png' border='0'/></a>
                             
-                        <?phpendif; ?>
+                        <?php endif; ?>
                             
-                        <?phpif( $custom_fields['linkedin'][0] ): ?>
+                        <?php if( $custom_fields['linkedin'][0] ): ?>
                         
                         	<a href='<?php echo $custom_fields['linkedin'][0] ?>' class='linkedin' target="_blank"><img src='<?php echo get_template_directory_uri('/');?>/images/sharethis-linkedin.png' border='0'/></a>
                             
@@ -205,21 +205,12 @@ get_header(); ?>
                         
                     <?php endif; ?>
                     
-                    
-                     <?php 
-					 $other = get_field('other');
-					 if( $other !=''): ?>
-                    
-                    	<?php the_field('other'); ?>
-                        
-                    <?php endif; ?>
                     </p>
                     </div>
                     
                     <div class="pci">
-                         <?php 
-    					 $other = get_field('other');
-    					 if( $other !=''): ?>
+                         <?php $other = get_field('other');
+    					           if( $other !=''): ?>
                         
                         	<?php the_field('other'); ?>
                             

@@ -36,12 +36,12 @@ get_header(); ?>
                 <div id='interior-content' class=' transparent-gray page-contents'><!--nine columns-->
         	<div id="page_content">
 	        
-	        <?php if (have_rows('accolades')):
+	        <?php if (have_rows('accolade')):
 	                $ctr = 0;
 	                 ?>
 	        <div class="accolades">
 	                <div class="row">
-	                <?php while (have_rows('accolades')) : the_row();
+	                <?php while (have_rows('accolade')) : the_row();
 	                
 	                $has_image = get_sub_field('has_image');
 	                $acc_image = get_sub_field('accolade_image');
