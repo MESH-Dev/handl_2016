@@ -753,7 +753,7 @@ a:hover {
 }
 .entry-content,
 .entry-summary {
-	padding: 1.625em 0 0;
+	//padding: 1.625em 0 0;
 }
 .entry-content h1,
 .entry-content h2,
@@ -1756,6 +1756,10 @@ section.recent-posts .other-recent-posts li:after {
 	float: right;
 	text-align: right;
 	width: 50%;
+}
+
+.meta-nav {
+	font-family:serif;
 }
 #content nav .meta-nav {
 	font-weight: normal;

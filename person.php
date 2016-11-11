@@ -174,7 +174,7 @@ get_header(); ?>
                     
                     
                 </p>
-                <p>&nbsp;</p>
+                
             
             </div>
             
