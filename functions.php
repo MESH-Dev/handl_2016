@@ -662,7 +662,7 @@ function custom_our_people() {
 		'label'                 => __( 'People', 'text_domain' ),
 		'description'           => __( 'Post Type DescriptionPost types for employees of H & L', 'text_domain' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor','page-attributes', 'thumbnail' ),
+		'supports'              => array( 'title', 'editor','page-attributes', 'thumbnail', 'custom-fields' ),
 		'taxonomies'            => array( 'employee_status' ),
 		'hierarchical'          => true,
 		'public'                => true,
